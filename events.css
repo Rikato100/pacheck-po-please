@@ -227,10 +227,7 @@ font-size: 1.5rem;
 text-shadow: 2px 2px 4px blue;
 background: transparent;}
 
-.buttons-container {
-display: flex;
-gap: 15px;
-background: transparent;}
+
 
 .footer-btn {
 background-color: blue;
@@ -261,10 +258,18 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -6175px;
-left: 30px;
 background: transparent;
-position: absolute;}
+position: absolute;
+right: 1240px;
+top: 140px}
+
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    background: transparent;
+    
+    
+}
 
 .social-icon {
 filter: grayscale(100%);
@@ -436,6 +441,8 @@ transition: 0.5;
 text-shadow: 1px 1px 1px white;}
 
 
+section {
+    position: relative;
 
 
-
+}
